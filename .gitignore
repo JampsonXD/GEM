@@ -20,7 +20,6 @@ Plugins/*/Binaries/*
 # Content Assets
 Content/Assets/Weapons/*
 Content/Assets/ParagonAurora/*
-Content/Assets/ParagonWraith/*
 
 # Builds
 Build/*
