@@ -15,6 +15,11 @@ AGEMPlayerController::AGEMPlayerController()
 	SpawnTransform = FTransform(FVector(0.f,0.f,0.f));
 }
 
+UQuestSystemComponent* AGEMPlayerController::GetQuestSystemComponent() const
+{
+	return QuestSystemComponent;
+}
+
 void AGEMPlayerController::CreateHUD()
 {
 	// Dont run this if we already have a created HUD
