@@ -1,0 +1,205 @@
+D:\GEM\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals_core.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\sal.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\concurrencysal.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vadefs.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xkeycheck.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\exception
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\crtdbg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new_debug.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\use_ansi.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\type_traits
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdint
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\stdint.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xstddef
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstddef
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stddef.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xtr1common
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdlib
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdlib.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\limits.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\initializer_list
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\malloc.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_exception.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\eh.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_terminate.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\tuple
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xutility
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\climits
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstring
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\errno.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstring.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\utility
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\float.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_stdio_config.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\wchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wconio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wctype.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wdirect.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_share.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wprocess.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wtime.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys/stat.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys/types.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.inl.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\new
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xatomic.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_map
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xhash
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\list
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xpolymorphic_allocator.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xbit_ops.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xnode_handle.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\string
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\ctype.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xtimec.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xthreads.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\sstream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\istream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ostream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ios
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocnum
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\streambuf
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\atomic
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocale
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xfacet
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\future
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\condition_variable
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltasks.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplwin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplinterface.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltaskscheduler.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplcancellation_token.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\setjmp.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\immintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\wmmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\nmmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\smmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\tmmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pmmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\emmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xmmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\mmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\zmmintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ammintrin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\locale
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocbuf
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmes
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmon
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xloctime
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\codecvt
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\string_view
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h

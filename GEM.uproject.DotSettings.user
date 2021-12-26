@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=BFA23D60_002D661A_002D85BB_002D9E46_002D5AB97679CAE9_002Fd_003APrivate_002Fd_003AMainGame_002Ff_003AGEMCharacter_002Ecpp/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=a6529ede_002D3175_002D3925_002D7884_002D3c3fb791db17_0023DistanceMatchingPlugin/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=ADSFOV/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=AGEM/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=PRINTSCREEN/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=UGEM/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

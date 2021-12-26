@@ -1,0 +1,375 @@
+D:\GEM\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Definitions.RiderLink.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xatomic.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ostream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ios
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocnum
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\streambuf
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\atomic
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xthreads.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xtimec.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocale
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xfacet
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\string
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\sstream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\istream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\future
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\condition_variable
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltasks.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplwin.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplinterface.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltaskscheduler.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplcancellation_token.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\locale
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocbuf
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmes
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmon
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xloctime
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\codecvt
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_map
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xhash
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\list
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xbit_ops.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_set
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\map
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\regex
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire/SocketWire.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/WireBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/MessageBroker.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\queue
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\array
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
+D:\Programs\VisualStudio\VS2019\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapifromapp.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime/Launch/Resources/Version.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Private\RiderLink.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UE4Library.Generated.h
+D:\Programs\EpicGames\UE\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ScopeRWLock.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\NotificationType.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestFailed.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase_Unknown.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestSucceed.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Generated.h
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/ScriptCallStackFrame.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnableToDisplayScriptCallStack.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp
+D:\GEM\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot/RdEditorRoot.Generated.h
+D:/GEM/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp
