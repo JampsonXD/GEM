@@ -18,6 +18,7 @@ Binaries/*
 Plugins/*/Binaries/*
 
 # Content Assets
+Content/Assets/ParagonAurora*
 Content/Assets/Weapons/Scifi_Arsenal_Vol2/*
 
 # Builds
