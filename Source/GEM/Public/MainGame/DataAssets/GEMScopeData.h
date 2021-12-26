@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "MainGame/GEMItemData.h"
+#include "GEMItemData.h"
 #include "MainGame/GAS/GEMGameplayAbility.h"
 #include "GEMScopeData.generated.h"
 

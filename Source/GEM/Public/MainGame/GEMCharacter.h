@@ -7,7 +7,7 @@
 #include "AbilitySystemInterface.h"
 #include "EnhancedInputSubsystemInterface.h"
 #include "GEMInventoryTypes.h"
-#include "GEMWeaponData.h"
+#include "DataAssets/GEMWeaponData.h"
 #include "GameFramework/Character.h"
 #include "GAS/GEMAbilitySystemComponent.h"
 #include "GAS/GEMAttributeSetBase.h"

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "MainGame/GEMWeaponData.h"
+#include "MainGame/DataAssets/GEMWeaponData.h"
 #include "GEMInventoryTypes.generated.h"
 
 /**

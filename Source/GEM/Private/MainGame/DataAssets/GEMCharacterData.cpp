@@ -2,7 +2,6 @@
 
 
 #include "MainGame/DataAssets/GEMCharacterData.h"
-
 #include "GEMAssetManager.h"
 
 UGEMCharacterData::UGEMCharacterData()

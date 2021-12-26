@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/TextBlock.h"
-#include "MainGame/GEMWeaponData.h"
+#include "MainGame/DataAssets/GEMWeaponData.h"
 #include "UW_HUDWeaponInfo.generated.h"
 
 /**

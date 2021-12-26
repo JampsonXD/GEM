@@ -2,7 +2,6 @@
 
 
 #include "MainGame/DataAssets/GEMScopeData.h"
-
 #include "GEMAssetManager.h"
 
 UGEMScopeData::UGEMScopeData()

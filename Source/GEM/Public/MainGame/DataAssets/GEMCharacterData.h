@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "MainGame/GEMItemData.h"
+#include "GEMItemData.h"
 #include "GEMCharacterData.generated.h"
 
 /**

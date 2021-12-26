@@ -9,8 +9,7 @@
 #include "UW_PlayerStatBar.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/Overlay.h"
-#include "MainGame/GEMWeaponData.h"
-#include "MainGame/DataAssets/GEMCharacterData.h"
+#include "MainGame/DataAssets/GEMWeaponData.h"
 #include "UW_HUD.generated.h"
 
 /**

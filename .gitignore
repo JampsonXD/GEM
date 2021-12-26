@@ -17,9 +17,6 @@ SourceArt/**/*.tga
 Binaries/*
 Plugins/*/Binaries/*
 
-# Content Assets
-Content/Assets/ParagonAurora*
-
 # Builds
 Build/*
 
