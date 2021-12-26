@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UW_Crosshair.h"
 #include "UW_DeathRecap.h"
 #include "UW_ExperiencePopup.h"
 #include "UW_HUDWeaponInfo.h"
@@ -46,6 +47,12 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "HUD | Weapon")
 	void SetWeaponCrosshair(UTexture2D* InCrosshairTexture);
 
+	UFUNCTION(BlueprintCallable, Category = "HUD | Weapon")
+	void SetWeaponCrosshairTexture(UTexture2D* InCrosshairTexture);
+
+	UFUNCTION(BlueprintCallable, Category = "HUD | Weapon")
+	void ToggleWeaponCrosshair(bool bToggleOn);
+
 	UFUNCTION(BlueprintCallable, Category = "HUD | Death")
 	void PlayDeathRecap(UGEMCharacterData* InEnemyCharacterData);
 
@@ -68,6 +75,9 @@ protected:
 
 	UFUNCTION(BlueprintCallable, Category = "HUD | Health")
 	void UpdateMaximumHealth(float InNewMaxHealth);
+
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+	UUW_Crosshair* Crosshair;
 	
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 	UUW_HUDWeaponInfo* WeaponInfo;

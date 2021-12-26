@@ -123,7 +123,7 @@ struct FWeaponMeshData
 	}
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh Data")
-	USkeletalMesh* SkeletalMesh;
+	TSoftObjectPtr<USkeletalMesh> SkeletalMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh Data")
 	FVector LocationOffset;
@@ -151,7 +151,7 @@ struct FSubWeaponMeshData : public FWeaponMeshData
 
 	// Might use a Static Mesh instead of our Skeletal Mesh depending on the situation, add a pointer to a static mesh just incase
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh Data")
-	UStaticMesh* StaticMesh;
+	TSoftObjectPtr<UStaticMesh> StaticMesh;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh Data")
 	EWeaponAttachmentSlot AttachmentSlot;

@@ -256,6 +256,34 @@ float AGEMWeapon::GetWeaponDamage() const
 	return WeaponData->Damage;
 }
 
+void AGEMWeapon::SetupSkeletalAttachmentFromSubWeaponMeshData(USkeletalMeshComponent* InMeshComponent,
+	const FSubWeaponMeshData& InMeshData, USkeletalMeshComponent* ParentMesh)
+{
+	// Attach the Component
+	InMeshComponent->AttachToComponent(ParentMesh, FAttachmentTransformRules::SnapToTargetIncludingScale, InMeshData.SocketAttachName);
+	
+	// Load the Asset if it has not already been done and Set its loaded value as our Skeletal Mesh; Hard load may cause stutters on slow machines
+	InMeshComponent->SetSkeletalMesh(InMeshData.SkeletalMesh.LoadSynchronous());
+
+	// Set our Offsets
+	InMeshComponent->SetRelativeLocation(InMeshData.LocationOffset);
+	InMeshComponent->SetRelativeRotation(InMeshData.RotationOffset);
+}
+
+void AGEMWeapon::SetupStaticAttachmentFromSubWeaponMeshData(UStaticMeshComponent* InMeshComponent,
+	const FSubWeaponMeshData& InMeshData, USkeletalMeshComponent* ParentMesh)
+{
+	// Attach the Component
+	InMeshComponent->AttachToComponent(ParentMesh, FAttachmentTransformRules::SnapToTargetIncludingScale, InMeshData.SocketAttachName);
+	
+	// Load the Asset if it has not already been done and Set its loaded value as our Skeletal Mesh; Hard load may cause stutters on slow machines
+	InMeshComponent->SetStaticMesh(InMeshData.StaticMesh.LoadSynchronous());
+
+	// Set our Offsets
+	InMeshComponent->SetRelativeLocation(InMeshData.LocationOffset);
+	InMeshComponent->SetRelativeRotation(InMeshData.RotationOffset);
+}
+
 void AGEMWeapon::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
@@ -450,8 +478,8 @@ void AGEMWeapon::Client_SetDataAsset_Implementation(UGEMWeaponData* InWeaponData
 void AGEMWeapon::SetValuesFromWeaponData()
 {
 	const FWeaponMeshData& MeshData = WeaponData->WeaponMesh;
-	// Set our First Person Mesh
-	GetSkeletalMeshFirstPerson()->SetSkeletalMesh(MeshData.SkeletalMesh);
+	// Set our First Person Mesh, Load if not already in memory
+	GetSkeletalMeshFirstPerson()->SetSkeletalMesh(MeshData.SkeletalMesh.LoadSynchronous());
 	GetSkeletalMeshFirstPerson()->SetRelativeLocation(MeshData.LocationOffset);
 	GetSkeletalMeshFirstPerson()->SetRelativeRotation(MeshData.RotationOffset);
 
@@ -470,15 +498,11 @@ void AGEMWeapon::SetValuesFromWeaponData()
 			switch(Attachment.AttachmentSlot)
 			{
 			case EWeaponAttachmentSlot::Stock:
-				StockMesh->SetSkeletalMesh(Attachment.SkeletalMesh);
-				StockMesh->SetRelativeLocation(Attachment.LocationOffset);
-				StockMesh->SetRelativeRotation(Attachment.RotationOffset);
+				SetupSkeletalAttachmentFromSubWeaponMeshData(StockMesh, Attachment, WeaponMeshFirstPerson);
 				break;
 				
 			case EWeaponAttachmentSlot::Handguard:
-				HandguardMesh->SetStaticMesh(Attachment.StaticMesh);
-				HandguardMesh->SetRelativeLocation(Attachment.LocationOffset);
-				HandguardMesh->SetRelativeRotation(Attachment.RotationOffset);
+				SetupStaticAttachmentFromSubWeaponMeshData(HandguardMesh, Attachment, WeaponMeshFirstPerson);
 				break;
 			
 			case EWeaponAttachmentSlot::Grip:
@@ -499,24 +523,15 @@ void AGEMWeapon::SetValuesFromWeaponData()
 			switch (Attachment.AttachmentSlot)
 			{
 				case EWeaponAttachmentSlot::Sight:
-				SightMesh->AttachToComponent(WeaponMeshFirstPerson, FAttachmentTransformRules::SnapToTargetIncludingScale, Attachment.SocketAttachName);
-				SightMesh->SetSkeletalMesh(Attachment.SkeletalMesh);
-				SightMesh->SetRelativeLocation(Attachment.LocationOffset);
-				SightMesh->SetRelativeRotation(Attachment.RotationOffset);
+				SetupSkeletalAttachmentFromSubWeaponMeshData(SightMesh, Attachment, WeaponMeshFirstPerson);
 				break;
 
 				case EWeaponAttachmentSlot::IronsightFront:
-				IronsightFrontMesh->AttachToComponent(WeaponMeshFirstPerson, FAttachmentTransformRules::SnapToTargetIncludingScale, Attachment.SocketAttachName);
-				IronsightFrontMesh->SetStaticMesh(Attachment.StaticMesh);
-				IronsightFrontMesh->SetRelativeLocation(Attachment.LocationOffset);
-				IronsightFrontMesh->SetRelativeRotation(Attachment.RotationOffset);
+				SetupStaticAttachmentFromSubWeaponMeshData(IronsightFrontMesh, Attachment, WeaponMeshFirstPerson);
 				break;
 
 				case EWeaponAttachmentSlot::IronsightBack:
-				IronsightFrontMesh->AttachToComponent(WeaponMeshFirstPerson, FAttachmentTransformRules::SnapToTargetIncludingScale, Attachment.SocketAttachName);
-				IronsightFrontMesh->SetStaticMesh(Attachment.StaticMesh);
-				IronsightFrontMesh->SetRelativeLocation(Attachment.LocationOffset);
-				IronsightFrontMesh->SetRelativeRotation(Attachment.RotationOffset);
+				SetupStaticAttachmentFromSubWeaponMeshData(IronsightBackMesh, Attachment, WeaponMeshFirstPerson);
 				break;
 
 				default: break;

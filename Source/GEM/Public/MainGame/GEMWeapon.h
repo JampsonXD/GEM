@@ -170,6 +170,13 @@ protected:
 	// Scene Capture used for some scopes
 	UPROPERTY(VisibleAnywhere, Category = "Weapon | Attachment")
 	USceneCaptureComponent2D* ScopeSceneCapturer;
+
+	// Mesh setup from SubWeaponMeshData
+	UFUNCTION()
+	static void SetupSkeletalAttachmentFromSubWeaponMeshData(USkeletalMeshComponent* InMeshComponent, const FSubWeaponMeshData& InMeshData, USkeletalMeshComponent* ParentMesh);
+
+	UFUNCTION()
+	static void SetupStaticAttachmentFromSubWeaponMeshData(UStaticMeshComponent* InMeshComponent, const FSubWeaponMeshData& InMeshData, USkeletalMeshComponent* ParentMesh);
 	
 	
 	// Replication stuff

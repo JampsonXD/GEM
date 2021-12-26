@@ -36,6 +36,16 @@ void UUW_HUD::ToggleWeaponInfoVisibility(ESlateVisibility InVisibility)
 	WeaponInfo->SetVisibility(InVisibility);
 }
 
+void UUW_HUD::SetWeaponCrosshairTexture(UTexture2D* InCrosshairTexture)
+{
+	Crosshair->SetWeaponCrosshairTexture(InCrosshairTexture);
+}
+
+void UUW_HUD::ToggleWeaponCrosshair(bool bToggleOn)
+{
+	Crosshair->ToggleCrosshair(bToggleOn);
+}
+
 void UUW_HUD::PlayDeathRecap(UGEMCharacterData* InEnemyCharacterData)
 {
 	PlayerDeathRecap->PlayDeathRecap(InEnemyCharacterData);
