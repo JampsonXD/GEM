@@ -7,30 +7,26 @@
 // Sets default values for this component's properties
 UQuestSystemComponent::UQuestSystemComponent()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
+	// Can't tick
+	PrimaryComponentTick.bCanEverTick = false;
 }
 
-
-// Called when the game starts
-void UQuestSystemComponent::BeginPlay()
+TArray<UQuest*> UQuestSystemComponent::GetQuests() const
 {
-	Super::BeginPlay();
-
-	// ...
-	
+	return Quests;
 }
 
-
-// Called every frame
-void UQuestSystemComponent::TickComponent(float DeltaTime, ELevelTick TickType,
-                                          FActorComponentTickFunction* ThisTickFunction)
+UQuest* UQuestSystemComponent::GetActiveQuest() const
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
+	return ActiveQuest;
 }
 
+bool UQuestSystemComponent::AddQuest(UQuest* NewQuest, bool bSetAsActiveQuest)
+{
+	return true;
+}
+
+bool UQuestSystemComponent::SwapActiveQuest(UQuest* NewActiveQuest)
+{
+	return true;
+}
