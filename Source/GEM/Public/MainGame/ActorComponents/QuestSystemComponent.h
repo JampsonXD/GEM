@@ -7,6 +7,8 @@
 #include "MainGame/Questing/Quest.h"
 #include "QuestSystemComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnNewActiveQuest, UQuest*, NewActiveQuest, UQuest*, OldActiveQuest);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnNewQuestAdded, UQuest*, NewQuest);
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class GEM_API UQuestSystemComponent : public UActorComponent
@@ -16,7 +18,7 @@ class GEM_API UQuestSystemComponent : public UActorComponent
 public:
 	// Sets default values for this component's properties
 	UQuestSystemComponent();
-
+	
 	// Getters
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest System Component")
 	TArray<UQuest*> GetQuests() const;
@@ -38,15 +40,46 @@ public:
 	 */
 	UFUNCTION(BlueprintCallable, Category = "Quest System Component")
 	bool SwapActiveQuest(UQuest* NewActiveQuest);
+
+	/** Quest Delegates Getters **/
+	UFUNCTION()
+	FOnNewActiveQuest GetOnNewActiveQuestDelegate() const;
 	
 protected:
 
-	// Current list of quests this component owns
+	// Current list of quests this component owns and are not finished
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Quests")
-	TArray<UQuest*> Quests;
+	TArray<UQuest*> CurrentQuests;
+
+	// List of Quests our component has already finished
+	UPROPERTY(BlueprintReadOnly, Category = "Quests | Finished")
+	TArray<UQuest*> FinishedQuests;
 
 	// The Quest this component is actively tracking
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Quests")
 	UQuest* ActiveQuest;
+
+	/** Quest Delegates **/
+
+	// A new Active Quest was set
+	UPROPERTY(BlueprintAssignable)
+	FOnNewActiveQuest NewActiveQuestDelegate;
+
+	// A new Quest was added to our Quest Array
+	UPROPERTY(BlueprintAssignable)
+	FOnNewQuestAdded NewQuestAddedDelegate;
+
+	/** Function that we will call whenever we want to change our Active Quest, calls delegates
+	*@param NewQuest : Quest we are setting as our new Active Quest
+	*/
+	UFUNCTION()
+	void SetActiveQuest(UQuest* NewQuest);
+
+	/** Checks to see if we already have this quest added to our Quests Array
+	 *@param InQuest : Quest we will be checking with against our Quest Array
+	 *@return bool : Returns true if we already have the quest
+	 */
+	UFUNCTION()
+	bool ContainsQuest(UQuest* InQuest);
  
 };

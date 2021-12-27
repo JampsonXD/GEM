@@ -7,3 +7,8 @@ UQuest::UQuest()
 {
 	
 }
+
+FGameplayTag UQuest::GetQuestID()
+{
+	return QuestID;
+}

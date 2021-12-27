@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameplayTagContainer.h"
 #include "UObject/Object.h"
 #include "Quest.generated.h"
 
@@ -17,4 +18,13 @@ class GEM_API UQuest : public UObject
 public:
 
 	UQuest();
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest | Descriptors")
+	FGameplayTag GetQuestID();
+	
+protected:
+
+	// Our Quests Identifying Tag
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Quest | Descriptors")
+	FGameplayTag QuestID;
 };
