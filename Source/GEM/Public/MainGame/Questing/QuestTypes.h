@@ -9,6 +9,30 @@
  * 
  */
 
+class ATaskTrigger;
+USTRUCT(BlueprintType)
+struct FQuestTask
+{
+	GENERATED_BODY()
+
+	FQuestTask()
+	{
+		TaskName = FName("Default");
+		TaskDescription = FText::GetEmpty();
+		Trigger = nullptr;
+	}
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName TaskName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText TaskDescription;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	ATaskTrigger* Trigger;
+	
+};
+
 UENUM()
 enum class QuestStatus : uint8
 {

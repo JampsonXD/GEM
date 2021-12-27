@@ -4,27 +4,44 @@
 
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
+#include "QuestTypes.h"
+#include "MainGame/DataAssets/QuestDataAsset.h"
 #include "UObject/Object.h"
 #include "Quest.generated.h"
 
 /**
  * 
  */
-UCLASS()
-class GEM_API UQuest : public UObject
+
+USTRUCT(BlueprintType)
+struct FQuest
 {
 	GENERATED_BODY()
 
-public:
-
-	UQuest();
-
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest | Descriptors")
-	FGameplayTag GetQuestID();
+	FQuest()
+	{
+		CharacterGiven = TEXT("Default");
+		QuestID = nullptr;
+	}
 	
-protected:
+	// Who gave us the Quest
+	UPROPERTY(BlueprintReadOnly, Category = "Quest")
+	FName CharacterGiven;
+	
+	//  Primary Asset ID to load, also used for identification of the quest as well
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest")
+	UQuestDataAsset* QuestID;
 
-	// Our Quests Identifying Tag
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Quest | Descriptors")
-	FGameplayTag QuestID;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest")
+	float CurrentTaskIndex;
+	
+	// Set of Tasks that we must complete to finish the Quest
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest")
+	TArray<FQuestTask> QuestTasks;
+
+	/** Operator Overloading so we can do comparisons easier **/
+	FORCEINLINE bool operator==(const FQuest& OtherQuest) const
+	{
+		return QuestID == OtherQuest.QuestID;
+	}
 };

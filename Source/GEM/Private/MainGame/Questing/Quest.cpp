@@ -2,13 +2,3 @@
 
 
 #include "MainGame/Questing/Quest.h"
-
-UQuest::UQuest()
-{
-	
-}
-
-FGameplayTag UQuest::GetQuestID()
-{
-	return QuestID;
-}

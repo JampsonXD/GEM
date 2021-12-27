@@ -10,6 +10,7 @@ const FPrimaryAssetType UGEMAssetManager::KeyType = TEXT("Key");
 const FPrimaryAssetType UGEMAssetManager::AmmoType = TEXT("Ammo");
 const FPrimaryAssetType UGEMAssetManager::ScopeType = TEXT("Scope");
 const FPrimaryAssetType UGEMAssetManager::CharacterType = TEXT("Character");
+const FPrimaryAssetType UGEMAssetManager::QuestType = TEXT("Quest");
 
 void UGEMAssetManager::StartInitialLoading()
 {

@@ -13,17 +13,17 @@ UQuestSystemComponent::UQuestSystemComponent()
 	PrimaryComponentTick.bCanEverTick = false;
 }
 
-TArray<UQuest*> UQuestSystemComponent::GetQuests() const
+TArray<FQuest> UQuestSystemComponent::GetQuests() const
 {
 	return Quests;
 }
 
-UQuest* UQuestSystemComponent::GetActiveQuest() const
+FQuest UQuestSystemComponent::GetActiveQuest() const
 {
 	return ActiveQuest;
 }
 
-bool UQuestSystemComponent::AddQuest(UQuest* NewQuest, bool bSetAsActiveQuest)
+bool UQuestSystemComponent::AddQuest(FQuest NewQuest, bool bSetAsActiveQuest)
 {
 	if(ContainsQuest(NewQuest))
 	{
@@ -49,7 +49,7 @@ bool UQuestSystemComponent::AddQuest(UQuest* NewQuest, bool bSetAsActiveQuest)
 	return true;
 }
 
-bool UQuestSystemComponent::SwapActiveQuest(UQuest* NewActiveQuest)
+bool UQuestSystemComponent::SwapActiveQuest(FQuest& NewActiveQuest)
 {
 	// Current Quest is already New Active Quest
 	if(NewActiveQuest == ActiveQuest)
@@ -62,14 +62,19 @@ bool UQuestSystemComponent::SwapActiveQuest(UQuest* NewActiveQuest)
 	
 }
 
+void UQuestSystemComponent::QuestTaskFinished(FQuest& InQuest)
+{
+	GEM_PRINTSCREEN("Task was finished");
+}
+
 FOnNewActiveQuest UQuestSystemComponent::GetOnNewActiveQuestDelegate() const
 {
 	return NewActiveQuestDelegate;
 }
 
-void UQuestSystemComponent::SetActiveQuest(UQuest* NewQuest)
+void UQuestSystemComponent::SetActiveQuest(const FQuest& NewQuest)
 {
-	UQuest* OldQuest = ActiveQuest;
+	const FQuest OldQuest = ActiveQuest;
 	ActiveQuest = NewQuest;
 	if(NewActiveQuestDelegate.IsBound())
 	{
@@ -78,11 +83,11 @@ void UQuestSystemComponent::SetActiveQuest(UQuest* NewQuest)
 }
 
 // Quests use Gameplay tags as their Identifiers, check if this quest is already owned by checking if tags match
-bool UQuestSystemComponent::ContainsQuest(UQuest* InQuest)
+bool UQuestSystemComponent::ContainsQuest(const FQuest& InQuest)
 {
-	for(UQuest* Quest : Quests)
+	for(FQuest Quest : Quests)
 	{
-		if(Quest->GetQuestID().MatchesTag(InQuest->GetQuestID()))
+		if(Quest == InQuest)
 		{
 			return true;
 		}

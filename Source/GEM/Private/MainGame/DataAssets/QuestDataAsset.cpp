@@ -3,3 +3,9 @@
 
 #include "MainGame/DataAssets/QuestDataAsset.h"
 
+#include "GEMAssetManager.h"
+
+FPrimaryAssetId UQuestDataAsset::GetPrimaryAssetId() const
+{
+	return FPrimaryAssetId(UGEMAssetManager::QuestType, GetFName());
+}

@@ -26,4 +26,5 @@ class GEM_API UGEMAssetManager : public UAssetManager
 	static const FPrimaryAssetType AmmoType;
 	static const FPrimaryAssetType ScopeType;
 	static const FPrimaryAssetType CharacterType;
+	static const FPrimaryAssetType QuestType;
 };

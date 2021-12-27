@@ -13,5 +13,17 @@ UCLASS()
 class GEM_API UQuestDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest Data")
+	FName QuestName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest Data")
+	FText QuestDescription;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest Data")
+	float Experience;
 	
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override;
 };

@@ -12,6 +12,7 @@
 
 AGEMPlayerController::AGEMPlayerController()
 {
+	QuestSystemComponent = CreateDefaultSubobject<UQuestSystemComponent>(TEXT("Quest System Component"));
 	SpawnTransform = FTransform(FVector(0.f,0.f,0.f));
 }
 
