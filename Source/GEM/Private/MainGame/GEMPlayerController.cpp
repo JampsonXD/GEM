@@ -2,11 +2,11 @@
 
 
 #include "MainGame/GEMPlayerController.h"
+#include "QuestSystemComponent.h"
 #include "Blueprint/WidgetBlueprintLibrary.h"
 #include "GEM/GEM.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "MainGame/GEMCharacter.h"
-#include "MainGame/GEMPlayerState.h"
 #include "MainGame/GEMWeapon.h"
 #include "Net/UnrealNetwork.h"
 

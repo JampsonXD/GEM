@@ -24,6 +24,14 @@
 	],
 	"Plugins": [
 		{
+			"Name": "QuestSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "InventorySystem",
+			"Enabled": true
+		},
+		{
 			"Name": "GameplayAbilities",
 			"Enabled": true
 		},

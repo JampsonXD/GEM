@@ -4,10 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GEMCharacter.h"
-#include "ActorComponents/QuestSystemComponent.h"
+#include "QuestSystemInterface.h"
 #include "GameFramework/PlayerController.h"
 #include "Blueprint/UserWidget.h"
-#include "Interfaces/QuestSystemInterface.h"
 #include "UI/UW_HUD.h"
 #include "UI/UW_RespawnTimer.h"
 #include "GEMPlayerController.generated.h"
@@ -21,12 +20,17 @@ class GEM_API AGEMPlayerController : public APlayerController, public IQuestSyst
 {
 	GENERATED_BODY()
 
+protected:
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Quest System Component", meta = (AllowPrivateAccess = "true"))
+	class UQuestSystemComponent* QuestSystemComponent;
+	
 public:
 
 	AGEMPlayerController();
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest System")
-	virtual UQuestSystemComponent* GetQuestSystemComponent() const override;
+	virtual class UQuestSystemComponent* GetQuestSystemComponent() const override;
 	
 	// Setter for our Spawn Transform, only set on server
 	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Player Spawn")
@@ -58,9 +62,6 @@ public:
 protected:
 
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Quest System")
-	UQuestSystemComponent* QuestSystemComponent;
 	
 	// Our default player HUD class to spawn
 	UPROPERTY(EditDefaultsOnly, Category = "HUD")
