@@ -17,20 +17,23 @@ class QUESTSYSTEM_API UQuestSystemComponent : public UActorComponent
 
 public:
 	
-	// Getters
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest System Component")
 	TArray<FQuest> GetQuests() const;
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest System Component")
 	FQuest GetActiveQuest() const;
 
+	/** Used to initialize our Quest Component, Default Quests are granted here **/
+	void InitQuestComponent();
+
+	
 	/** Tries to add a new Quest to the set of quests this component will look over
 	* @param NewQuest : Quest to try to add to our component
 	* @param bSetAsActiveQuest : Whether we should set our new Quest as the Active Quest
 	* @return bool : Returns whether the Quest was added successfully or not
 	*/
 	UFUNCTION(BlueprintCallable, Category = "Quest System Component")
-	bool AddQuest(FQuest NewQuest, bool bSetAsActiveQuest);
+	bool AddQuest(FQuest NewQuest, bool bSetAsActiveQuest = false);
 
 	/** Swaps the Active Quest with a new Quest
 	 * @param NewActiveQuest : Quest we are trying to swap
@@ -82,5 +85,8 @@ protected:
 	 */
 	UFUNCTION()
 	bool ContainsQuest(const FQuest& InQuest);
+
+	/** Adds our default Quests to our Component **/
+	void SetupDefaultQuests();
  
 };

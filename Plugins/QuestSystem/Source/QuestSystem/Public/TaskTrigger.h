@@ -8,7 +8,7 @@
 #include "TaskTrigger.generated.h"
 
 UCLASS()
-class ATaskTrigger : public AActor
+class QUESTSYSTEM_API ATaskTrigger : public AActor
 {
 	GENERATED_BODY()
 	

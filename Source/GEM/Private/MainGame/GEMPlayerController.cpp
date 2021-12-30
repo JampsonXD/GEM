@@ -2,6 +2,8 @@
 
 
 #include "MainGame/GEMPlayerController.h"
+
+#include "InventorySystemComponent.h"
 #include "QuestSystemComponent.h"
 #include "Blueprint/WidgetBlueprintLibrary.h"
 #include "GEM/GEM.h"
@@ -13,12 +15,18 @@
 AGEMPlayerController::AGEMPlayerController()
 {
 	QuestSystemComponent = CreateDefaultSubobject<UQuestSystemComponent>(TEXT("Quest System Component"));
+	InventorySystemComponent = CreateDefaultSubobject<UInventorySystemComponent>(TEXT("Inventory System Component"));
 	SpawnTransform = FTransform(FVector(0.f,0.f,0.f));
 }
 
 UQuestSystemComponent* AGEMPlayerController::GetQuestSystemComponent() const
 {
 	return QuestSystemComponent;
+}
+
+UInventorySystemComponent* AGEMPlayerController::GetInventorySystemComponent() const
+{
+	return InventorySystemComponent;
 }
 
 void AGEMPlayerController::CreateHUD()

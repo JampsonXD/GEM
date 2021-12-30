@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FQuestSystemModule : public IModuleInterface
+class QUESTSYSTEM_API FQuestSystemModule : public IModuleInterface
 {
 public:
 

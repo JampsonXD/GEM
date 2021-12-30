@@ -22,6 +22,11 @@ FQuest UQuestSystemComponent::GetActiveQuest() const
 	return ActiveQuest;
 }
 
+void UQuestSystemComponent::InitQuestComponent()
+{
+	
+}
+
 bool UQuestSystemComponent::AddQuest(FQuest NewQuest, bool bSetAsActiveQuest)
 {
 	if(ContainsQuest(NewQuest))
@@ -83,7 +88,7 @@ void UQuestSystemComponent::SetActiveQuest(const FQuest& NewQuest)
 // Quests use Gameplay tags as their Identifiers, check if this quest is already owned by checking if tags match
 bool UQuestSystemComponent::ContainsQuest(const FQuest& InQuest)
 {
-	for(FQuest Quest : Quests)
+	for(FQuest& Quest : Quests)
 	{
 		if(Quest == InQuest)
 		{
@@ -92,4 +97,12 @@ bool UQuestSystemComponent::ContainsQuest(const FQuest& InQuest)
 	}
 
 	return false;
+}
+
+void UQuestSystemComponent::SetupDefaultQuests()
+{
+	for(const FQuest& Quest : DefaultQuests)
+	{
+		AddQuest(Quest, false);
+	}
 }

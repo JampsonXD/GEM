@@ -8,7 +8,7 @@ public class GEM : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "QuestSystem" , "UMG"});
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "InventorySystem", "HeadMountedDisplay", "QuestSystem" , "UMG"});
 		
 		PrivateDependencyModuleNames.AddRange(new string[] {"GEMLoadingScreen", "GameplayAbilities", "GameplayTags", "GameplayTasks", "EnhancedInput", "Niagara", "Slate", "SlateCore"});
 	}

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GEMCharacter.h"
 #include "QuestSystemInterface.h"
+#include "InventorySystemInterface.h"
 #include "GameFramework/PlayerController.h"
 #include "Blueprint/UserWidget.h"
 #include "UI/UW_HUD.h"
@@ -16,7 +17,7 @@ class AGEMWeapon;
  * 
  */
 UCLASS()
-class GEM_API AGEMPlayerController : public APlayerController, public IQuestSystemInterface
+class GEM_API AGEMPlayerController : public APlayerController, public IQuestSystemInterface, public IInventorySystemInterface
 {
 	GENERATED_BODY()
 
@@ -24,6 +25,9 @@ protected:
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Quest System Component", meta = (AllowPrivateAccess = "true"))
 	class UQuestSystemComponent* QuestSystemComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Inventory System Component", meta = (AllowPrivateAccess = "true"))
+	class UInventorySystemComponent* InventorySystemComponent;
 	
 public:
 
@@ -31,6 +35,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest System")
 	virtual class UQuestSystemComponent* GetQuestSystemComponent() const override;
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Quest System")
+	virtual class UInventorySystemComponent* GetInventorySystemComponent() const override;
 	
 	// Setter for our Spawn Transform, only set on server
 	UFUNCTION(Server, Reliable, BlueprintCallable, Category = "Player Spawn")
