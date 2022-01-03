@@ -8,6 +8,8 @@
 #include "InventorySystemComponent.generated.h"
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnItemAdded, UItem*, NewItem);
+
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class INVENTORYSYSTEM_API UInventorySystemComponent : public UActorComponent
 {
@@ -30,15 +32,18 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Inventory System Component | Defaults")
 	TArray<TSubclassOf<UItem>> DefaultInventoryItems;
 
-public:
+	UPROPERTY(BlueprintAssignable)
+	FOnItemAdded OnItemAdded;
 
+public:
+	
 	/** Tries adding an item of class to our inventory
 	 * @param Item : The item class to add
-	 *  @param Amount : The amount of the item we want to try to add
+	 *  @param StacksToGrant : The amount of the item we want to try to add
 	 *  @return : Returns true if we successfully added an item
 	 */
 	UFUNCTION(BlueprintCallable, Category = "Inventory System Component | Items")
-	bool AddItem(TSubclassOf<UItem> Item, int32 Amount = 1);
+	bool AddItem(TSubclassOf<UItem> Item, int32 StacksToGrant = 1);
 
 	/** Initializes our Default Inventory Items
 	 */
@@ -51,10 +56,21 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	TArray<UItem*> GetInventoryItems();
 
+	UFUNCTION()
+	FOnItemAdded& GetOnItemAddedDelegate();
+
 protected:
 
 	UFUNCTION()
 	bool ContainsValidItemOfClass(const TSubclassOf<UItem>& Item, TArray<UItem*>& OutItemsFound);
+
+	/** Creates an Instance of the passed in Item Class, adding the passed in stacks up to its maximum allowed
+	 * @param  Item : Passed in Item Class to spawn
+	 * @param StacksToGrant : Passed in Stack Amount by reference
+	 * @return bool : Returns true if we add all the available stacks passed in
+	 */
+	UFUNCTION()
+	bool CreateItemInstance(TSubclassOf<UItem> Item, int32& StacksToGrant);
 
 	/** Adds available stacks to items as long as we still have stacks to grant
 	 * @param Items : Array of items we are trying to add stacks to
@@ -63,6 +79,14 @@ protected:
 	 */
 	UFUNCTION()
 	static void AddStacksToItems(TArray<UItem*>& Items, int32& StacksToGrant);
+
+	/** Adds available stacks to an item, if no stacks are left, returns true
+	 * @param StacksToGrant : The stacks we want to add to an item instance
+	 * @param Item : The Item Instance to add stacks to
+	 * @return bool : Returns true if we used all the stacks
+	 */
+	UFUNCTION()
+	static bool AddAvailableStacksToItem(int32& StacksToGrant, UItem* Item);
 
 	/** Returns the available stack count - Max Stacks - Current Stacks
 	 * @param Item : Item to get available stacks from 

@@ -3,12 +3,17 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ItemTypes.h"
 #include "UObject/Object.h"
 #include "Item.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnCurrentStackCountChanged, int32, OldStackCount, int32, NewStackCount);
 
 /**
  * 
  */
+
+
 UCLASS(BlueprintType, Blueprintable)
 class INVENTORYSYSTEM_API UItem : public UObject
 {
@@ -36,6 +41,10 @@ protected:
 	// Current stack count of our item
 	UPROPERTY(EditDefaultsOnly, Category = "Item")
 	int32 CurrentStackCount;
+
+	// Delegate for when our Current Stack Count Changes
+	UPROPERTY(BlueprintAssignable)
+	FOnCurrentStackCountChanged OnCurrentStackCountChanged;
 	
 	
 public:
@@ -56,7 +65,17 @@ public:
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "Item")
 	int32 GetCurrentItemStacks();
 
+	// Makes a struct of data about the item we can use in things like our UI
+	UFUNCTION(BlueprintPure , BlueprintCallable, Category = "Item Data")
+	FItemUIData MakeItemData();
+
 	UFUNCTION()
-	void AddStacks(int32 Amount);
+	FOnCurrentStackCountChanged& GetOnCurrentStackCountChangedDelegate();
+
+	/** Adds Stacks to our current item
+	 * @param StacksToAdd : Amount of stacks we will be adding to our UItem
+	*/
+	UFUNCTION()
+	void AddStacks(int32 StacksToAdd);
 	
 };

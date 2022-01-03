@@ -9,16 +9,16 @@ UInventorySystemComponent::UInventorySystemComponent(const class FObjectInitiali
 {
 	// Initialize as Unlimited Inventory Size
 	MaxInventorySize = -1;
-
 	
 	PrimaryComponentTick.bCanEverTick = true;
 	
 }
 
-bool UInventorySystemComponent::AddItem(TSubclassOf<UItem> Item, int32 Amount)
+
+bool UInventorySystemComponent::AddItem(TSubclassOf<UItem> Item, int32 StacksToGrant)
 {
 	// Make sure we are actually adding an amount or have a valid Item Class
-	if(Amount <= 0 || !IsValid(Item))
+	if(StacksToGrant <= 0 || !IsValid(Item))
 	{
 		return false;
 	}
@@ -30,61 +30,57 @@ bool UInventorySystemComponent::AddItem(TSubclassOf<UItem> Item, int32 Amount)
 	if(Cast<UItem>(Item->GetDefaultObject())->IsStackable() && ContainsValidItemOfClass(Item,ValidItems))
 	{
 		bAddedItems = true;
-		AddStacksToItems(ValidItems, Amount);
+		AddStacksToItems(ValidItems, StacksToGrant);
 	}
 	
 	// We have no stacks to update left or we have no inventory space
-	if(Amount <= 0 || IsInventoryFull())
+	if(StacksToGrant <= 0 || IsInventoryFull())
 	{
 		return bAddedItems;
 	}
-	
+
+	// We have space and are going to at least create one instance of UItem so change
+	// our boolean to true
 	bAddedItems = true;
 	
-	// Continue creating items from class until we have no stacks to give left or our inventory is full
-	while(!IsInventoryFull() && Amount > 0)
+	// Continue creating item instances from class until we have no stacks to give left or our inventory is full
+	while(!IsInventoryFull() && StacksToGrant > 0)
 	{
-		// Create a new Item Instance
-		UItem* NewItem = NewObject<UItem>(this, Item);
-		InventoryItems.Add(NewItem);
-
-		// Item has unlimited stacks and is stackable
-		if(NewItem->IsStackable() && NewItem->HasUnlimitedStacks())
-		{
-			// Add the leftover stacks and break from our loop
-			NewItem->AddStacks(Amount);
-			Amount = 0;
-			break;
-		}
-		else if(NewItem->IsStackable())
-		{
-			const int32 AvailableStacks = GetAvailableStackCount(NewItem);
-
-			if((Amount - AvailableStacks) <= 0 || NewItem->HasUnlimitedStacks())
-			{
-				NewItem->AddStacks(Amount);
-				Amount = 0;
-				break;
-			}
-
-			NewItem->AddStacks(AvailableStacks);
-			Amount -= AvailableStacks;
-		}
-		else
-		{
-			NewItem->AddStacks(1);
-			Amount -= 1;
-		}
+		// Create an Item Instance and Re-Evaluate if we have stacks leftover
+		CreateItemInstance(Item, StacksToGrant);
 	}
 	
 	return bAddedItems;
-	
+}
+
+bool UInventorySystemComponent::CreateItemInstance(TSubclassOf<UItem> Item, int32& StacksToGrant)
+{
+	// Create a new Item Instance
+	UItem* NewItem = NewObject<UItem>(this, Item);
+	InventoryItems.Add(NewItem);
+
+	// Broadcast that we have a new item added to our Inventory
+	if(OnItemAdded.IsBound())
+	{
+		OnItemAdded.Broadcast(NewItem);
+	}
+
+	// Only add one stack and return if our item is not stackable
+	if(!NewItem->IsStackable())
+	{
+		NewItem->AddStacks(1);
+		StacksToGrant -= 1;
+		return false;
+	}
+
+	// Return true if we added all the available stacks to the item, false otherwise
+	return AddAvailableStacksToItem(StacksToGrant, NewItem) ? true : false;
 }
 
 void UInventorySystemComponent::InitInventorySystemComponent()
 {
 	// Add Default Inventory Items to our Inventory
-	for(TSubclassOf<UItem> Item : DefaultInventoryItems)
+	for(const TSubclassOf<UItem> Item : DefaultInventoryItems)
 	{
 		AddItem(Item, 1);
 	}
@@ -93,6 +89,11 @@ void UInventorySystemComponent::InitInventorySystemComponent()
 TArray<UItem*> UInventorySystemComponent::GetInventoryItems()
 {
 	return InventoryItems;
+}
+
+FOnItemAdded& UInventorySystemComponent::GetOnItemAddedDelegate()
+{
+	return OnItemAdded;
 }
 
 bool UInventorySystemComponent::ContainsValidItemOfClass(const TSubclassOf<UItem>& Item, TArray<UItem*>& OutItemsFound)
@@ -115,18 +116,25 @@ void UInventorySystemComponent::AddStacksToItems(TArray<UItem*>& Items, int32& S
 	// Iterate through our Items of the same type until we have no stacks to give or run out of items to update 
 	for(UItem* Item : Items)
 	{
-		const int32 AvailableStacks = GetAvailableStackCount(Item);
-
-		if((StacksToGrant - AvailableStacks) <= 0 || Item->HasUnlimitedStacks())
-		{
-			Item->AddStacks(StacksToGrant);
-			StacksToGrant = 0;
-			return;
-		}
-
-		Item->AddStacks(AvailableStacks);
-		StacksToGrant -= AvailableStacks;
+		// Returns true if we have no stacks leftover
+		if (AddAvailableStacksToItem(StacksToGrant, Item)) return;
 	}
+}
+
+bool UInventorySystemComponent::AddAvailableStacksToItem(int32& StacksToGrant, UItem* Item)
+{
+	const int32 AvailableStacks = GetAvailableStackCount(Item);
+
+	if(StacksToGrant - AvailableStacks <= 0 || Item->HasUnlimitedStacks())
+	{
+		Item->AddStacks(StacksToGrant);
+		StacksToGrant = 0;
+		return true;
+	}
+
+	Item->AddStacks(AvailableStacks);
+	StacksToGrant -= AvailableStacks;
+	return false;
 }
 
 int32 UInventorySystemComponent::GetAvailableStackCount(UItem* Item)
@@ -141,5 +149,5 @@ bool UInventorySystemComponent::HasUnlimitedInventorySize() const
 
 bool UInventorySystemComponent::IsInventoryFull() const
 {
-	return InventoryItems.Num() >= MaxInventorySize || HasUnlimitedInventorySize();
+	return InventoryItems.Num() >= MaxInventorySize && !HasUnlimitedInventorySize();
 }

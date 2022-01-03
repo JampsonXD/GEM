@@ -2,12 +2,14 @@
 
 
 #include "Item.h"
+#include "ItemTypes.h"
 
 UItem::UItem(const class FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	bIsStackable = false;
 	MaxStackCount = -1;
 	CurrentStackCount = 0;
+	ItemImage = nullptr;
 }
 
 void UItem::Use()
@@ -35,13 +37,27 @@ int32 UItem::GetCurrentItemStacks()
 	return CurrentStackCount;
 }
 
-void UItem::AddStacks(int32 Amount)
+FItemUIData UItem::MakeItemData()
 {
-	// Check if we have unlimited stacks and if so, we don't need to worry about max stack count
-	if(HasUnlimitedStacks())
+	FItemUIData ItemData = FItemUIData(ItemName, ItemDescription, ItemImage, bIsStackable, CurrentStackCount, MaxStackCount);
+	return ItemData;
+}
+
+FOnCurrentStackCountChanged& UItem::GetOnCurrentStackCountChangedDelegate()
+{
+	return OnCurrentStackCountChanged;
+}
+
+void UItem::AddStacks(int32 StacksToAdd)
+{
+	const int32 OldStackCount = CurrentStackCount;
+
+	// We don't need to check for our Max Stack Count, the Inventory System Component will do that for us
+	CurrentStackCount += StacksToAdd;
+
+	// Broadcast that our stack count has changed
+	if(OnCurrentStackCountChanged.IsBound())
 	{
-		CurrentStackCount = CurrentStackCount + Amount;
-		return;
+		OnCurrentStackCountChanged.Broadcast(OldStackCount, CurrentStackCount);
 	}
-	CurrentStackCount = FMath::Min(CurrentStackCount + Amount, MaxStackCount);
 }
